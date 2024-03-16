@@ -1,0 +1,98 @@
+/* App.css */
+.app {
+  text-align: center;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  padding-left: 20px; /* Add padding to the left */
+}
+
+.pokedex {
+  margin-top: 20px;
+}
+
+
+
+/* App.css */
+/* Existing styles */
+
+.filters {
+  margin-bottom: 10px;
+  text-align: left; 
+}
+
+.filters button {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #333;
+  font-size: 14px;
+}
+
+.filters button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+
+.pokemon {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pokemon img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* App.css */
+/* Existing styles */
+
+.types-container {
+  margin-top: 5px;
+}
+
+.type {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  background-color: #ccc; /* Default background color */
+}
+
+.grass {
+  background-color: #8bc34a; /* Green for grass type */
+}
+
+.poison {
+  background-color: #9c27b0; /* Purple for poison type */
+}
+
+/* Add more classes for other types if needed */
+/* App.css */
+/* Existing styles */
+
+.pokemon-wrapper {
+  width: calc(33.33% - 20px); /* Adjust according to your needs */
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Adjust margins, widths, and any other styles as needed */
